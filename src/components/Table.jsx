@@ -16,18 +16,6 @@ function Table() {
     'surface_water',
   ]);
 
-  const handleChangeComparison = ({ target }) => {
-    setComparison(target.value);
-  };
-
-  const handleChangeColumn = ({ target }) => {
-    setColumn(target.value);
-  };
-
-  const handleChangeValue = ({ target }) => {
-    setValue(target.value);
-  };
-
   const handleClickFilter = () => {
     const numberValue = parseInt(value, 10);
 
